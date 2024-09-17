@@ -15,7 +15,7 @@ public class MessagingApiAppApplication {
 	
 	@GetMapping("/greetings")
 	public String printGreetings() {
-		return "Hi Oracle!!";
+		return "Hi Oracle OFSS!!";
 	}
 	@GetMapping("")
 	public String guestGreetings() {
